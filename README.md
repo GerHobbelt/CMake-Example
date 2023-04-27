@@ -27,6 +27,15 @@ Then run `cmake --build build --config Release` in windows command line to compi
 
 - the other option is just open CMakeLists.txt directly in Visual Studio 2017 (Menu -> File -> Open -> CMake...)
 
+## Quick command sequence to build all
+
+... into build directory `./b/`:
+
+```sh
+cmake -Bb
+cmake --build b --config Release
+```
+
 # To Do:
 
 - Generating export macro automatically by CMake 
