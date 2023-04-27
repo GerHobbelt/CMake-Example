@@ -1,3 +1,8 @@
+
+IF(COMMAND cmake_policy)
+	cmake_policy(SET CMP0115 NEW)
+ENDIF(COMMAND cmake_policy)
+
 # Pass information about version to C++ code through header
 #    that will be supplemented by cmake.
 configure_file(
